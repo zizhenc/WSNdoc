@@ -1,0 +1,31 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage{acronym}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\title[A big title]{Backbone Determination of Wireless Sensor Networks\\Visualized Engineering Manual}
+\author{Zizhen Chen}
+\acrodef{WSN}[WSN]{Wireless Sensor Network}
+\acrodef{IDE}[IDE]{Integrated Development Environment}
+\begin{document}
+\maketitle
+\begin{abstract}
+\acp{WSN} have been the focus of intense research during the past few years because of their potential to facilitate data acquisition and scientific studies\cite{werner2006deploying}. Lack of a fixed infrastructure and dynamic network topology make the routing problem one of the most challenging issues in the \ac{WSN} area. One popular solution is forming a virtual backbone that forwards the packets. This algorithm engineering work graphically presents a procedure of backbone determination of various \ac{WSN} models. The whole work is implemented via a software sketchbook Processing that is both a programming language and an \ac{IDE} built for visual arts\cite{reas2007processing}. This article is a manual of using the implemented graphic program.
+\end{abstract}
+\section{Introduction}
+\acfp{WSN} are composed of inexpensive autonomous electronic sensors distributed over regions where the sensors communicate with each other wirelessly. Sensors are typically thrown in an unattended and random manner on the area to be monitored. Wireless communication allows the formation of flexible networks, which can be deployed rapidly over wide or inaccessible areas. Nowadays, WSNs emerge as an active research area in which challenging topics involve energy consumption, routing algorithms, selection of sensor locations, and so forth\cite{carlos2016wireless}.
+
+In a \ac{WSN} of a given topology (as Figure 1 shows), the sensor information is usually collected then forwarded to a base station known as sink node. The need to gather data from all sensors in the network imposes constraints on the distances between sensors, so an efficient routing is required if large number of sensors are involved. One popu- lar solution is to perform routing only through a connected subset of nodes (called “virtual backbone”) in a WSN [4], [5], [6]. As only nodes in the virtual backbone (e.g. the blue and red nodes in Figure 1) forward packets or perform in- network services, other nodes can spend more time in a low-
+Fig. 1: Wireless Sensor Network
+power idle mode. Therefore, a virtual backbone can simplify the routing process and reduce the overall network energy consumption. It also has other functions, such as transmis- sion scheduling, broadcasting, and localization [7].
+%\subsection{}
+
+\bibliographystyle{unsrt}
+\bibliography{Reference}
+\end{document}  
