@@ -17,4 +17,33 @@ Miriam Carlos-Mancilla, Ernesto L{\'o}pez-Mellado, and Mario Siller.
 \newblock Wireless sensor networks formation: approaches and techniques.
 \newblock {\em Journal of Sensors}, 2016, 2016.
 
+\bibitem{al2008efficient}
+Jamal~N Al-Karaki and Ahmed~E Kamal.
+\newblock Efficient virtual-backbone routing in mobile ad hoc networks.
+\newblock {\em Computer Networks}, 52(2):327--350, 2008.
+
+\bibitem{mahjoub2009experimental}
+Dhia Mahjoub and David~W Matula.
+\newblock Experimental study of independent and dominating sets in wireless
+  sensor networks using graph coloring algorithms.
+\newblock In {\em International Conference on Wireless Algorithms, Systems, and
+  Applications}, pages 32--42. Springer, 2009.
+
+\bibitem{chen2017bipartite}
+Zizhen Chen and David~W Matula.
+\newblock Bipartite grid partitioning of a random geometric graph.
+\newblock In {\em 2017 13th International Conference on Distributed Computing
+  in Sensor Systems (DCOSS)}, pages 163--169. IEEE, 2017.
+
+\bibitem{wang2005distributed}
+Yu~Wang, WeiZhao Wang, and Xiang-Yang Li.
+\newblock Distributed low-cost backbone formation for wireless ad hoc networks.
+\newblock In {\em Proceedings of the 6th ACM international symposium on Mobile
+  ad hoc networking and computing}, pages 2--13, 2005.
+
+\bibitem{dall2002random}
+Jesper Dall and Michael Christensen.
+\newblock Random geometric graphs.
+\newblock {\em Physical review E}, 66(1):016121, 2002.
+
 \end{thebibliography}
